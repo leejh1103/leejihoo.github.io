@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>동물의 숲</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+      }
+      body {
+        background-image: url("bg 2.png");
+        height: 227px;
+        margin-bottom: 40px;
+        background-repeat: no-repeat;
+        background-color: #97c7a5;
+      }
+      ul {
+        list-style-type: none;
+      }
+      #page {
+        width: 980px;
+        margin: 0 auto;
+      }
+      aside {
+        width: 250px;
+        float: right;
+        margin-top: 10px;
+      }
+      aside .col1 {
+        float: center;
+        margin-top: 4px;
+        margin-left: 30px;
+        font-size: 20px;
+        font-family: 'Jua', sans-serif;
+        color: #009f59;
+      }
+      aside ul {
+        margin: 65px 50px 60px 0;
+      }
+      aside li {
+        padding: 10px;
+        margin: 15px;
+        background-color: #ffffff;
+      }
+      section #sub_img {
+        width: 1400px;
+        margin-top: 150px;
+        margin-left: 90px;
+        float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="page-header wrapper">
+      <h1><a href="index.html"><img class="logo" src="logo.png"></a></h1>
+      <nav>
+        <ul class="main-nav">
+          <li><a href="animal 1.html">주민</a></li>
+          <li><a href="software.html">소프트웨어</a></li>
+          <li><a href="event 1.html">이벤트</a></li>
+          <li><a href="q.html">Q&A</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <aside>
+          <ul>
+            <li class="selected"><a href="event 1.html"><div class="col1">서버 이벤트</div>
+              <div class="clear"></div>
+            </li>
+            <li class="selected"><a href="event 2.html"><div class="col1">계절 이벤트</div>
+              <div class="clear"></div>
+            </li>
+          </ul>
+      </aside>
+      <section>
+        <div id="sub_img"><img src="event 2.png"></div>
+      </section>
+      <div class="clear"></div>
+    </main>
+  </body>
+</html>
